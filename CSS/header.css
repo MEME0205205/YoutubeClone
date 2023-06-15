@@ -1,0 +1,134 @@
+.header {
+    z-index: 100;
+    background-color: rgb(15,15,15);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+    right: 0;
+}
+
+.left-header {
+    width: 120px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.center-header {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex: 1;
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-header {
+    margin-right: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.lines {
+    width: 16px;
+}
+
+.logo {
+    width: 85px;
+}
+
+.searchbar {
+    width: 0;
+    flex: 1;
+    border: 1px solid rgb(48, 48, 48);   
+    height: 30px;
+    background-color: rgb(18, 18, 18);
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-left: 13px;
+    font-weight: 500;
+    color: rgb(204, 204, 204);
+}
+.searchbar:focus {
+    outline: 1px solid rgb(49, 92, 183);
+    outline-offset: -1px;
+}
+
+.search1 {
+    width: 15px;
+    margin-right:3px ;
+}
+
+.searchb1 {
+    height: 34px;
+    width: 50px;
+    border: 1px solid rgb(48, 48, 48);   
+    border-left: 0px;
+    background-color: rgb(34, 34, 34);
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+    transition: border-radius .25s;
+    position: relative;
+}
+
+.search2 {
+    width: 13px;
+}
+
+.searchb2 {
+    background-color: rgb(24,24,24);
+    margin-left: 5px;
+    height: 34px;
+    width: 34px;
+    border: none;
+    border-radius: 17px;
+    position: relative;
+}
+
+.searchb2:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.upload {
+    width: 18px;
+}
+
+.notifications {
+    width: 16px;
+}
+
+.profile {
+    width: 27px;
+    border-radius: 15px;
+}
+
+.header-button-up,
+.header-button-not,
+.header-button {
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(15,15,15);
+    transition: background-color 0.15s;
+    position: relative;
+}
+
+.header-button:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.logo, .searchb1, .searchb2, .profile {
+  cursor: pointer;
+}
+

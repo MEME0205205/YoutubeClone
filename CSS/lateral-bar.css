@@ -1,0 +1,121 @@
+.lateral-bar {
+  width: 175px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.lateral-bar:hover {
+  overflow-y: visible;
+}
+.lateral-info {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.lateral-button {
+  margin-left: 15px;
+  background-color: rgb(15, 15, 15);
+  width: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.1s;
+}
+.lateral-button:hover {
+  background-color: rgb(39,39,39);
+  cursor: pointer;
+}
+
+.lateral-button-pressed {
+  margin-left: 15px;
+  background-color: rgb(39,39,39);
+  width: 155px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.1s;
+}
+
+
+.lateral-button-pressed:hover {
+  background-color: rgb(61,61,61);
+  cursor: pointer;
+}
+.separator {
+  margin-top: 20px;
+  border-color: rgb(63, 63, 63);
+  width: 150px;
+}
+
+.separator2 {
+  margin-top: 20px;
+  border-color: rgb(63, 63, 63);
+  width: 175px;
+}
+
+.lateral-info-text {
+  color: white;
+  font-size: 12px;
+  margin-left: 21px;
+}
+
+.lateral-sector {
+  color: white;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  margin-left: 16px;
+}
+
+.material-symbols-outlined {
+  color: white;
+  font-size: 21px !important;
+}
+
+.material-symbols-sharp {
+  color: white;
+  font-weight: 100 !important;
+  font-size: 22px !important;
+}
+
+.subscription-image {
+  width: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1300px) {
+  .bar1 {
+    display: none;
+  }
+  .lateral-bar {
+    width: 65px;
+  }
+  .lateral-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lateral-button {
+    height: 60px;
+    margin-left: 3px;
+    width: 60px;
+  }
+  .lateral-button-pressed {
+    height: 60px;
+    margin-left: 3px;
+    width: 60px !important;
+  }
+
+  .lateral-info-text {
+    font-size: 9px;
+    margin-left: 0px;
+  }
+  body {
+    padding-left: 55px;
+  }
+}

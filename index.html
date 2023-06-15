@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/video.css" />
+    <link rel="stylesheet" href="CSS/lateral-bar.css" />
+    <link rel="stylesheet" href="CSS/tooltip.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-header">
+        <button class="header-button">
+          <img class="lines" src="Images/Icons/hamburger-menu.png" alt="" />
+        </button>
+        <img class="logo" src="Images/Icons/youtube-logo.png" alt="" />
+      </div>
+      <div class="center-header">
+        <input class="searchbar" type="text" placeholder="Search" />
+        <button class="searchb1">
+          <img class="search1" src="Images/Icons/search.png" alt="" />
+          <div>Search</div>
+        </button>
+        <button class="searchb2">
+          <img class="search2" src="Images/Icons/voice-search-icon.png" />
+          <p>Search with your voice</p>
+        </button>
+      </div>
+      <div class="right-header">
+        <button class="header-button-up">
+          <img class="upload" src="Images/Icons/upload.png" alt="" />
+          <div>Create</div>
+        </button>
+        <button class="header-button-not">
+          <img class="notifications" src="Images/Icons/notifications.png" />
+          <div>Notifications</div>
+        </button>
+        <img class="profile" src="Images/Icons/profile.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="lateral-bar">
+      <button class="lateral-button-pressed">
+        <div class="lateral-info">
+          <i class="material-symbols-outlined">home</i>
+          <p class="lateral-info-text">Home</p>
+        </div>
+      </button>
+      <button class="lateral-button">
+        <div class="lateral-info">
+          <span class="material-symbols-sharp">subscriptions</span>
+          <p class="lateral-info-text">Subscriptions</p>
+        </div>
+      </button>
+      <button class="lateral-button">
+        <div class="lateral-info">
+          <span class="material-symbols-sharp">forum</span>
+          <p class="lateral-info-text">Community</p>
+        </div>
+      </button>
+      <div class="bar1">
+        <hr class="separator" />
+      </div>
+      <button class="lateral-button">
+        <div class="lateral-info">
+          <span class="material-symbols-sharp"> video_library </span>
+          <p class="lateral-info-text">Library</p>
+        </div>
+      </button>
+      <div class="bar1">
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> history </span>
+            <p class="lateral-info-text">History</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> smart_display </span>
+            <p class="lateral-info-text">Your videos</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> schedule </span>
+            <p class="lateral-info-text">Watch later</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> thumb_up </span>
+            <p class="lateral-info-text">Liked videos</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> expand_more </span>
+            <p class="lateral-info-text">Show more</p>
+          </div>
+        </button>
+        <hr class="separator2" />
+
+        <p class="lateral-sector">Subscriptions</p>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/1.jpg" />
+            <p class="lateral-info-text">dario torrisi</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/2.jpg" />
+            <p class="lateral-info-text">Orange Juice Ga...</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/3.jpg" />
+            <p class="lateral-info-text">Surry</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/4.jpg" />
+            <p class="lateral-info-text">ErikTheElectric</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/5.jpg" />
+            <p class="lateral-info-text">Paul Dabids</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/6.jpg" />
+            <p class="lateral-info-text">RyanTheScion</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <img class="subscription-image" src="Images/subscription/7.jpg" />
+            <p class="lateral-info-text">Marty Music</p>
+          </div>
+        </button>
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> expand_more </span>
+            <p class="lateral-info-text">Show 398 more</p>
+          </div>
+        </button>
+
+        <hr class="separator2" />
+
+        <p class="lateral-sector">Explore</p>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> local_fire_department </span>
+            <p class="lateral-info-text">Trending</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-outlined"> music_note </span>
+            <p class="lateral-info-text">Music</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> movie </span>
+            <p class="lateral-info-text">Films</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> podcasts </span>
+            <p class="lateral-info-text">Live</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> stadia_controller </span>
+            <p class="lateral-info-text">Gaming</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> newspaper </span>
+            <p class="lateral-info-text">News</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> emoji_events </span>
+            <p class="lateral-info-text">Sport</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> styler </span>
+            <p class="lateral-info-text">Fashion &amp; beauty</p>
+          </div>
+        </button>
+
+        <hr class="separator2" />
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> settings </span>
+            <p class="lateral-info-text">Settings</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> flag </span>
+            <p class="lateral-info-text">Report history</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> help </span>
+            <p class="lateral-info-text">Help</p>
+          </div>
+        </button>
+
+        <button class="lateral-button">
+          <div class="lateral-info">
+            <span class="material-symbols-sharp"> sms_failed </span>
+            <p class="lateral-info-text">Send feedback</p>
+          </div>
+        </button>
+
+        <hr class="separator2" />
+
+        <p class="firma">Created by Emanuele</p>
+      </div>
+    </div>
+    <div class="video-list">
+      <div class="video">
+        <div class="image">
+          <div class="duration">14&#58;46</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 1.jpg"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img
+              class="profile-picture"
+              src="Images/profile pictures/thumbnail 1.jpg"
+            />
+          </div>
+          <div>
+            <p class="title">
+              20 Things You Missed in the Ashina Outskirts of Sekiro: Shadows
+              Die Twice
+            </p>
+            <p class="author">VaatiVidya &#x2713;</p>
+            <p class="stats">3,4M views &#183; 4 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">11&#58;25</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 2.webp"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/2.jpg" />
+          </div>
+          <div>
+            <p class="title">The 30 Guitar Riffs Everyone Should Know</p>
+            <p class="author">Paul Davids &#x2713;</p>
+            <p class="stats">112.012 views &#183; 17 hours ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">34&#58;53</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 3.webp"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/3.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              I Paid For Dark Souls' Platinum With My Own Soul
+            </p>
+            <p class="author">Nick AR &#x2713;</p>
+            <p class="stats">34.134 views &#183; 7 hours ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">7&#58;05</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 4.jpg"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/4.jpg" />
+          </div>
+          <div>
+            <p class="title">vi porto a fare shopping con me</p>
+            <p class="author">dario torrisi</p>
+            <p class="stats">15.987 views &#183; 1 year ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">11&#58;30&#58;53</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 5.jpg"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/5.jpg" />
+          </div>
+          <div>
+            <p class="title">Learn HTML5 and CSS3 From Scratch - Full Course</p>
+            <p class="author">freeCodeCamp.org &#x2713;</p>
+            <p class="stats">5,5M views &#183; 4 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">1&#58;00&#58;01</div>
+          <img
+            class="thumbnail"
+            src="Images/thumbnails/thumbnail 6.jpg"
+            alt=""
+          />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/6.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              THE LAST OF US Ambient Music & Ambience &#127925; Post Apocalyptic
+              Peace (The Last of Us OST | Soundtrack)
+            </p>
+            <p class="author">z3n Pnk &#x2713;</p>
+            <p class="stats">2,8M views &#183; 5 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">14&#58;18</div>
+          <img class="thumbnail" src="Images/thumbnails/4.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/7.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              I Survived The World's Heaviest Man's Daily Diet
+            </p>
+            <p class="author">ErikTheElectric &#x2713;</p>
+            <p class="stats">1,4M views &#183; 3 days ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">9&#58;29</div>
+          <img class="thumbnail" src="Images/thumbnails/8.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/8.jpg" />
+          </div>
+          <div>
+            <p class="title">Skeleton Evolution: 1 Elixir Graveyard</p>
+            <p class="author">Orange Juice Gaming&#x2713;</p>
+            <p class="stats">342K views &#183; 20 hours ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">6&#58;37</div>
+          <img class="thumbnail" src="Images/thumbnails/9.jpg" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/11" />
+          </div>
+          <div>
+            <p class="title">
+              Beethoven - Moonlight Sonata (3rd movement) (Electric guitar)
+            </p>
+            <p class="author">Andre Antunes &#x2713;</p>
+            <p class="stats">495K views &#183; 3 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">11&#58;57&#58;22</div>
+          <img class="thumbnail" src="Images/thumbnails/10.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/10.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              JavaScript Full Course (2023) - Beginner to Pro - Part 1
+            </p>
+            <p class="author">SuperSimpleDev</p>
+            <p class="stats">753K views &#183; 2 months ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">2&#58;00&#58;10</div>
+          <img class="thumbnail" src="Images/thumbnails/11.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/5.jpg" />
+          </div>
+          <div>
+            <p class="title">miss the good old days...</p>
+            <p class="author">Nailsed Craft</p>
+            <p class="stats">546K views &#183; 1 month ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">15&#58;11</div>
+          <img class="thumbnail" src="Images/thumbnails/12.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/12.jpg" />
+          </div>
+          <div>
+            <p class="title">La mia prima guida ma con una Ferrari</p>
+            <p class="author">Surry &#x2713;</p>
+            <p class="stats">468K views &#183; 1 year ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">9&#58;05</div>
+          <img class="thumbnail" src="Images/thumbnails/13.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/13.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              4th Dimension Explained By A High-School Student
+            </p>
+            <p class="author">xkcdHatGuy</p>
+            <p class="stats">35M views &#183; 13 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">16&#58;19</div>
+          <img class="thumbnail" src="Images/thumbnails/14.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/14.jpg" />
+          </div>
+          <div>
+            <p class="title">
+              What we expected didn’t show up, we got this instead.
+            </p>
+            <p class="author">Linus Tech Tips &#x2713;</p>
+            <p class="stats">1M views &#183; 16 hours ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">9&#58;26</div>
+          <img class="thumbnail" src="Images/thumbnails/15.jpg" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/15.jpg" />
+          </div>
+          <div>
+            <p class="title">C++ Developer Learns Python</p>
+            <p class="author">PolyMars &#x2713;</p>
+            <p class="stats">2M views &#183; 2 years ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video">
+        <div class="image">
+          <div class="duration">9&#58;05</div>
+          <img class="thumbnail" src="Images/thumbnails/16.webp" alt="" />
+        </div>
+        <div class="video-info">
+          <div>
+            <img class="profile-picture" src="Images/profile pictures/16.jpg" />
+          </div>
+          <div>
+            <p class="title">9 Idiots Attempt to Make a "Game" in "48 hours"</p>
+            <p class="author">Mults</p>
+            <p class="stats">120K views &#183; 2 months ago</p>
+          </div>
+          <div>
+            <p class="video-options">&#8942;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

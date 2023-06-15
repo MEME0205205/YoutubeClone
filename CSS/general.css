@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 175px;
+    background-color: rgb(15, 15, 15);
+    zoom: 120%;
+  }
+  p {
+    margin: 0;
+  }
+  @media (max-width: 400px) {
+    body {
+      zoom:50%;
+    }
+  }
+    @media (min-width: 400px) and (max-width: 800px) {
+      body {
+        zoom:70%;
+      }
+  }
+
+  .lateral-bar::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .lateral-bar::-webkit-scrollbar-thumb {
+    background-color: rgb(113, 113, 113);
+    border-radius: 5px;
+  }
+
+  .lateral-bar::-webkit-scrollbar-track {
+    background-color: rgb(15, 15, 15);
+  }
+
+  html::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 170, 170);
+    border-radius: 5px;
+  }
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(113, 113, 113);
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: rgb(15, 15, 15);
+  }
+
+  .firma {
+    color: rgb(48, 48, 48);
+    font-size: 12px;
+    padding: 80px 20px 10px;
+  }
